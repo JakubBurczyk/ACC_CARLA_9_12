@@ -7,6 +7,9 @@ Author: Jakub Burczyk
 * Run Carla 0.9.12
 * Navigate to ```acc_scripts/``` and run ```main.py```
 
+Windows command example:
+```py -3.7 main.py -x maps/test_1.xodr --no-rendering --distance 10```
+
 ## Important Notes
 Created PyGame window may be unresponsive for a few seconds after starting the scripts and display "Rendering Map" this is expected behavior.
 
