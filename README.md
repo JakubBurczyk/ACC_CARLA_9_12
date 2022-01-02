@@ -36,9 +36,10 @@ Substitute the ```x``` character for regulator type: ```v``` to set velocity reg
 
 Substitute the ```y``` character for regulator component: ```p``` for proportional gain, ```i``` for integral gain and ```d``` for derivative gain.
 
-Example use:
+#### Example use:
 
-Setting velocity's distanc P gain to ```0.1``` : ```-vp 0.1``` or ```-pid-v-p 0.1```
+* Setting velocity proportional gain to ```0.1``` : ```-vp 0.1``` or ```-pid-v-p 0.1```
+* Setting distance integral gain to ```0.5``` : ``-di 0.5``` or ``` ```-pid-d-i 0.5```
 
 ## Important Notes
 Created PyGame window may be unresponsive for a few seconds after starting the scripts and display "Rendering Map" this is expected behavior.
