@@ -6,3 +6,10 @@ Author: Jakub Burczyk
 ## Running ACC
 * Run Carla 0.9.12
 * Navigate to ```acc_scripts/``` and run ```main.py```
+
+## Important Notes
+Created PyGame window may be unresponsive for a few seconds after starting the scripts and display "Rendering Map" this is expected behavior.
+
+If for some reason the script times out not connecting to the CARLA server please make sure it is running and re-run the script, this may be caused by loading map files.
+
+Full map view mode with TAB key. Exit with ESC in visu window or CTRL+C in cmd.
