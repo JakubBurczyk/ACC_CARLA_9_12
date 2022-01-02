@@ -1,0 +1,16 @@
+PID SETTINGS:
+
+Velocity:
+	p = 0.13
+	i = 0.03
+	d = 0.1
+Distance:
+	p = 0.03
+	i = 0.001
+	d = 0.1
+
+SIM SETTINGS:
+
+Testmap: test_1.xodr
+Function: --const
+Setpoint distance: 10.0
