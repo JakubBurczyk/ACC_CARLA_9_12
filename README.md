@@ -41,6 +41,12 @@ Substitute the ```y``` character for regulator component: ```p``` for proportion
 * Setting velocity proportional gain to ```0.1``` : ```-vp 0.1``` or ```-pid-v-p 0.1```
 * Setting distance integral gain to ```0.5``` : ```-di 0.5``` or ```-pid-d-i 0.5```
 
+#### Default regulator params:
+| Regulator| P | I | D |
+| - | - | - | - |
+| Velocity | 0.13 | 0.03 | 0.1 |
+| Distance | 0.03 | 0.001 | 0.1 |
+
 ## Important Notes
 Created PyGame window may be unresponsive for a few seconds after starting the scripts and display "Rendering Map" this is expected behavior.
 
