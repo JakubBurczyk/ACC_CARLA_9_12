@@ -1117,7 +1117,7 @@ class World(object):
         while self.hero_actor is None:
             spawn_points = self.world.get_map().get_spawn_points()
             #spawn_point = random.choice(spawn_points) if spawn_points else carla.Transform()
-            spawn_point = spawn_points[0] if spawn_points else carla.Transform()
+            spawn_point = spawn_points[globals.spawn_point_quick_fix_REMOVE] if spawn_points else carla.Transform()
             print("Spawning ACC AGENT player object")
             self.player_agent = AccAgent(self.world,'vehicle.audi.tt',spawn_point)
             self.player_agent.acc.setpoint_velocity = globals.target_vel
@@ -1749,7 +1749,7 @@ def game_loop(args):
             vehicle_bp = vehicles.find('vehicle.audi.tt')
 
             spawn_points = world.town_map.get_spawn_points()
-            start_pose = spawn_points[0]
+            start_pose = spawn_points[globals.spawn_point_quick_fix_REMOVE]
             spawn_offset = carla.Location(0, 0, -1)
             start_pose.location = start_pose.location + spawn_offset
 

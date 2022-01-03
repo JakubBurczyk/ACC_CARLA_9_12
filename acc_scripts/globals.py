@@ -31,7 +31,8 @@ def init():
     global save_plots
 
     global no_bot
-
+    global spawn_point_quick_fix_REMOVE
+    spawn_point_quick_fix_REMOVE = -1 #INDEX FIX FORSPAWN POINTS PLEASE DO THIS PROPERLY LATER
     save_to_csv = False
     save_plots = False
     no_bot = False
