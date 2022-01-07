@@ -30,7 +30,7 @@ Setting regulator params is done via command line args:
 
 | Arg  | Full arg | Desc | Val |
 |-|-|-|-|
-| -xy | -pid-x-y | Gain of given ```x``` regulator ```y``` component | ```float```|
+| -xy | --pid-x-y | Gain of given ```x``` regulator ```y``` component | ```float```|
 
 Substitute the ```x``` character for regulator type: ```v``` to set velocity regulator params or ```d``` for distance regulator params.
 
