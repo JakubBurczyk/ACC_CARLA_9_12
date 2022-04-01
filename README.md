@@ -1,5 +1,6 @@
 # Adaptive Cruise Control simulation for Carla 0.9.12
 Hi,
+
 Welcome to my bachelor thesis project. I have developed an adaptive cruise control module for Carla 9.12 written in Python based on official examples provided bu the Carla Project devs.
 
 
